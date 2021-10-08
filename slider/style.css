@@ -1,0 +1,41 @@
+.slider{
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    padding: relative;
+    
+}
+
+.slider .img{
+    width: 900px;
+    height: 1000px;
+    background-size: cover;
+    display:none;
+}
+
+.slider .next, .slider .prew{
+    position: absolute;
+    top: 180px;
+    padding: 20px;
+    background-color:#CCC;
+    border-radius:  15px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.slider .next:hover, .slider .prew:hover{
+    background-color: #eee;
+    opacity: 0.9;
+}
+
+.slider .next{
+    right: 30px;
+}
+
+.slider .prew{
+    left: 30px;
+}
+
+.active{
+    display: block !important;
+}

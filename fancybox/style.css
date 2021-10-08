@@ -1,0 +1,63 @@
+div{
+    box-sizing: border-box;
+}
+
+.fancybox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fancybox .small_img{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.modal_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: darkslateblue;
+    opacity: 0.7;
+    display: none;
+}
+
+.modal {
+    margin-top: -320px;
+    margin-left: -320px;
+    
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: none;
+}
+
+.modal .close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.modal .modal_body{
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.modal .modal_body img{
+    width: 100%;
+}

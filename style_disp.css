@@ -1,0 +1,62 @@
+body {
+    display: block;
+    margin: 8px;
+}
+.main_block {
+    margin: 150px auto;
+    width: 1200px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.main_block .block_tarifs {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_block .block_tarifs .tarif {
+    border: 1px solid #444;
+    background-color: #f8eee8;
+}
+
+.main_block .block_tarifs .tarif .block {
+    padding: 20px;
+}
+
+.main_block .block_tarifs .tarif .block {
+    padding: 20px;
+}
+
+.main_block .block_tarifs .tarif .block .name {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.main_block .block_tarifs .tarif .block .price {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.main_block .block_tarifs .tarif .block .button {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.main_block .block_tarifs .tarif .block .button a {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    padding: 15px;
+    border: 1px solid red;
+    background-color: tomato;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+}

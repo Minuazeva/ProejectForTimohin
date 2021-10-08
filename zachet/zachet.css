@@ -1,0 +1,133 @@
+/*
+Стили от МИнязевой Ф.З.
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.clearBoth{
+    clear: both;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.section{
+    padding-top: 100px; /*минимальные отступы*/
+    padding-bottom: 100px;
+}
+
+.section .body_element{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.section.menu{ /*почему тут без пробела*/
+    padding-top: 20px; 
+    padding-bottom: 20x;
+}
+
+.menu{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.menu .list_menu li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.menu .list_menu li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*.main{
+    background-image: url(img/mercedes-benz.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    margin-top: 113px;
+}*/
+
+.main .tizer{
+    margin: 70px 0px;
+}
+
+.main .tizer p{
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.main .logo{
+    text-align: center;
+
+}
+
+.main .logo img{
+    width: 1140px;
+    height: 300px;
+}
+
+.p_header{
+    font-size: 54px;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+.about .tizer_about .t_about{
+    float: left;
+    width: 33.333333333%;
+    padding: 0px 20px;
+}
+
+.about .tizer_about .t_about .t_about_header{
+    font-size: 24;
+    padding: 20px 0px;
+    border-bottom: 3px solid #000000;
+    margin-bottom: 20px;
+}
+
+.about .tradicii_about{
+    margin-top: 80px;
+}
+
+.about .tradicii_about .tra_about{
+    float: left;
+    width: 530px;
+    margin: 0px 20px;
+    background-color: #db2626;
+} 
+
+.about .tradicii_about .tra_about .img_tradicii_about{
+    background-image: url('img/audizad.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.about .tradicii_about .tra_about .tra_about_header{
+    font-size: 30;
+    padding: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.about .tradicii_about .tra_about .tra_about_text{
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 0px 50px;
+}

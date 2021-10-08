@@ -1,0 +1,105 @@
+div{
+    box-sizing: border-box;
+}
+
+.newYear{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.newYear .small_img{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.modal_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(141, 35, 123, 0.39);
+    opacity: 0.7;
+    display: none;
+}
+
+.modal {
+    margin-top: -320px;
+    margin-left: -320px;
+    
+    width: 600px;
+    height: 600px;
+    padding: 60px;
+    background-color: #ffffff07;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: none;
+}
+
+.modal .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.modal .modal_body{
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.modal .modal_body img{
+    width: 100%;
+}
+
+.slider{
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    padding: relative;
+    
+}
+
+.slider .img{
+    width: 900px;
+    height: 1000px;
+    background-size: cover;
+    display:none;
+}
+
+.slider .next, .slider .prew{
+    position: absolute;
+    top: 180px;
+    padding: 20px;
+    background-color:#CCC;
+    border-radius:  15px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.slider .next:hover, .slider .prew:hover{
+    background-color: #eee;
+    opacity: 0.9;
+}
+
+.slider .next{
+    right: 30px;
+}
+
+.slider .prew{
+    left: 30px;
+}
+
+.active{
+    display: block !important;
+}

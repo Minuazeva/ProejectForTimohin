@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Первая страница
+        </title>
+        <meta charset="utf-8"/>
+
+        <style>
+            #table_1 
+            {
+                border: 1px #000 solid;
+            }
+            #table_1 td
+            {
+                border: 1px red solid;
+            }
+            #table_1 th
+            {
+                border: 1px green solid;
+            }
+            #table_1 a{
+                color: blueviolet;
+            }
+            #table_1 a.pink{
+                color: pink;
+            }
+            .pink{
+                color: pink !important;
+            }
+            .bold{
+                font-weight : bold;
+            }
+            .center{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            Первая таблица
+        </h1>
+        <table>
+        </table>
+        <table id="table_1">
+            <thead>
+                <tr>
+                    <th>
+                        Заголовок
+                    </th>
+                </tr>
+            </thead>
+            
+            <tr>
+                <td>
+                    Ячейка 1 Ячейка 1 Ячейка 1 Ячейка 1
+                </td>
+                <td>
+                    <div>
+                        <a href="#">
+                            Ссылка</a> 
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td>
+                        Ячейка 2
+                    </td>
+                    <td>
+                        <div>
+                            <a href="#">
+                               <a class="pink bold center" href="#"> Ссылка</a> 
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    Ячейка 2
+                </td>
+                <td>
+                    Ячейка 2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Ячейка 2
+                </td>
+                <td>
+                    Ячейка 2
+                </td>
+            </tr>
+        </table>
+         
+        </table>
+    </body>
+</html>
